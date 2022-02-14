@@ -24,6 +24,8 @@
   --lineheight-sm: 1.067rem;
   --lineheight-md: 1.688rem;
   --lineheight-lg: 2.981rem;
+
+  --img-width: 14.813em;
 }
 
 header {
@@ -60,6 +62,47 @@ div.description {
   font-size: var(--text-md);
   font-weight: 400;
   line-height: var(--lineheight-md);
+}
+
+/* 
+    Main content and profiles
+*/
+main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5em;
+}
+
+img {
+  width: var(--img-width);
+  height: auto;
+}
+
+.profile-container {
+  display: flex;
+}
+
+figcaption {
+  font-family: var(--sans-serif-font);
+  font-size: var(--text-md);
+  font-weight: 600;
+  line-height: var(--lineheight-md);
+}
+
+.profile-role {
+  font-family: var(--serif-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: var(--lineheight-xs);
+  text-transform: uppercase;
+
+  /* transform: rotate(90deg); */
+  border: 1px solid orange;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  border: 1px solid red;
 }
 
 /*
