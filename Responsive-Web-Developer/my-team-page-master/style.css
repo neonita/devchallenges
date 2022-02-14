@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: #a9a9a9;
+  --black: #000;
+  --bg: #fafafa;
+
+  --serif-font: "PT Serif", sans-serif;
+  --sans-serif-font: "Poppins", sans-serif;
+  --footer-font: "Montserrat", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1.125rem;
+  --text-lg: 2.25rem;
+}
+
+/*
+lg - fontsize: 36px  lineheight: 47.7px  letterspacing: -0.045rem;
+md - fontsize: 18px  lineheigh: 27px
+sm - fontsize: 14px  lineheigh: 17.07px
+xs - fontsize: 12px  lineheigh: 15.9px
+*/
