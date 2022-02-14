@@ -26,6 +26,7 @@
   --lineheight-lg: 2.981rem;
 
   --img-width: 14.813em;
+  /* --column-width: 16.5em; */
 }
 
 header {
@@ -80,6 +81,15 @@ img {
 
 .profile-container {
   display: flex;
+  margin-bottom: 5em;
+}
+
+/* .column {
+  border: 2px dashed blue;
+} */
+
+.column-center {
+  margin-top: 5em;
 }
 
 figcaption {
@@ -87,6 +97,7 @@ figcaption {
   font-size: var(--text-md);
   font-weight: 600;
   line-height: var(--lineheight-md);
+  margin-top: 0.5em;
 }
 
 .profile-role {
@@ -95,14 +106,15 @@ figcaption {
   font-weight: 400;
   line-height: var(--lineheight-xs);
   text-transform: uppercase;
+  height: max-content; /* minimum height of content inside the element */
 
-  /* transform: rotate(90deg); */
-  border: 1px solid orange;
-}
-
-.rotate {
+  transform-origin: bottom left;
   transform: rotate(90deg);
-  border: 1px solid red;
+  position: relative;
+  bottom: 1.2em;
+  left: 1em;
+
+  /* border: 1px solid orange; */
 }
 
 /*
