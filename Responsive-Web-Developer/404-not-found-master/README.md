@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404-not-found}</h1>
+<h1 align="center">{404 Not Found Page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -33,14 +33,11 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![404-not-found-desktop](https://user-images.githubusercontent.com/92064437/153911756-5f6ce783-20c2-4b6e-b2c3-c6152629b97c.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![404-not-found-mobile](https://user-images.githubusercontent.com/92064437/153912107-6ba10409-22f3-4617-9263-fcf4b2eca23f.png)
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+I created a 404 Not Found page in attempts to replicate the Figma design. The significant challenge for me was using CSS Flexbox and ensure it responds to mobile. Regardless, developing a 404 page definitely placed emphasis on the skills I need to improve on and cement!
 
 ### Built With
 
