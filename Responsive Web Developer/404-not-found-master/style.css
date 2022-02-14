@@ -21,10 +21,10 @@ header p {
 }
 
 main {
+  /* margin: auto 0.5em; */
   font-family: "Space Mono", monospace;
   display: flex;
-  justify-content: space-evenly;
-  /* align-items: center; */
+  justify-content: space-around;
   padding-top: 7em;
   flex-wrap: wrap;
   height: calc(100vh - 110px);
@@ -50,6 +50,7 @@ main p {
   letter-spacing: -0.035em;
   width: 381px;
   margin: 1.5em 0;
+  font-weight: 400;
 }
 
 main button {
@@ -74,9 +75,15 @@ footer {
   color: #bdbdbd;
   font-size: 14px;
   height: 40px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 footer a:link,
@@ -89,15 +96,67 @@ footer a:hover {
   cursor: pointer;
 }
 
-/* .content-left {
-
-} */
-
 .content-right {
   width: 40em;
   text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 640px) {
-  /*  */
+  header {
+    padding-left: 1.5em;
+  }
+
+  main {
+    padding-top: 1em;
+    justify-content: center;
+    height: auto;
+    margin: 2em auto;
+    height: calc(100vh - 110px);
+  }
+
+  main img {
+    width: auto;
+    height: 238px;
+  }
+
+  main h1 {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -3.5%;
+  }
+
+  main p {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    width: auto;
+    margin-top: 1em;
+  }
+
+  main button {
+    margin-top: 2em;
+  }
+
+  .content-right {
+    margin: 1.5em auto;
+    width: 286px;
+  }
+
+  footer {
+    font-size: 10px;
+    line-height: 17px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 }
