@@ -19,6 +19,47 @@
   --text-sm: 0.875rem;
   --text-md: 1.125rem;
   --text-lg: 2.25rem;
+
+  --lineheight-xs: 0.994rem;
+  --lineheight-sm: 1.067rem;
+  --lineheight-md: 1.688rem;
+  --lineheight-lg: 2.981rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 16em;
+  padding: 6.5em 8em;
+}
+
+/* div.title {} */
+
+h1 {
+  font-family: var(--serif-font);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  letter-spacing: -0.045rem;
+}
+
+div.description {
+  font-family: var(--sans-serif-font);
+  width: 25em;
+}
+
+.description h3 {
+  font-size: var(--text-md);
+  font-weight: 600;
+  line-height: var(--lineheight-md);
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: var(--text-md);
+  font-weight: 400;
+  line-height: var(--lineheight-md);
 }
 
 /*
