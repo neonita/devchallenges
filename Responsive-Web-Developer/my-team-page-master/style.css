@@ -84,10 +84,6 @@ img {
   margin-bottom: 5em;
 }
 
-/* .column {
-  border: 2px dashed blue;
-} */
-
 .column-center {
   margin-top: 5em;
 }
@@ -113,8 +109,34 @@ figcaption {
   position: relative;
   bottom: 1.2em;
   left: 1em;
+}
 
-  /* border: 1px solid orange; */
+/* 
+    Footer
+*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+}
+
+footer p {
+  color: var(--grey);
+  font-family: var(--footer-font);
+  font-size: var(--text-sm);
+  line-height: var(--lineheight-sm);
+  font-weight: 500;
+}
+
+footer a:link,
+footer a:visited {
+  color: var(--grey);
+  font-weight: 700;
+}
+
+footer a:hover {
+  cursor: pointer;
 }
 
 /*
