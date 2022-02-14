@@ -14,8 +14,8 @@ header {
 }
 
 header p {
-  font-size: 24px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 1.56rem;
   letter-spacing: -0.08em;
   font-weight: 700;
 }
@@ -37,15 +37,15 @@ main img {
 
 main h1 {
   color: #333333;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: -0.035em;
-  line-height: 95px;
+  line-height: 5.9rem;
 }
 
 main p {
   color: #4f4f4f;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 36px;
   letter-spacing: -0.035em;
   width: 381px;
@@ -56,9 +56,9 @@ main p {
 main button {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.313;
   letter-spacing: -0.035em;
   color: #fff;
   text-align: center;
@@ -73,7 +73,7 @@ main button {
 footer {
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
-  font-size: 14px;
+  font-size: 0.875rem;
   height: 40px;
   /* display: flex;
   justify-content: center;
@@ -101,14 +101,14 @@ footer a:hover {
   text-align: left;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
   }
-}
+} */
 
 @media screen and (max-width: 640px) {
   header {
