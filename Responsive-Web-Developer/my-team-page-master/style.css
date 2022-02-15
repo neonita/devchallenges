@@ -68,10 +68,26 @@ div.description {
     Main content and profiles
 */
 main {
+  margin-top: 5em;
+}
+
+.row {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 5em;
+  margin-bottom: 3.9em auto;
+}
+
+.row-one {
+  /* border: 2px dashed red; */
+}
+
+.row-two {
+  margin-bottom: 2em;
+}
+
+.profile-center {
+  margin-top: 6em;
 }
 
 img {
@@ -84,8 +100,8 @@ img {
   margin-bottom: 5em;
 }
 
-.column-center {
-  margin-top: 5em;
+figure {
+  flex-shrink: 1;
 }
 
 figcaption {
@@ -109,6 +125,8 @@ figcaption {
   position: relative;
   bottom: 1.2em;
   left: 1em;
+
+  flex-shrink: 3;
 }
 
 /* 
@@ -140,6 +158,9 @@ footer a:hover {
   cursor: pointer;
 }
 
+/* 
+    Mobile
+*/
 @media screen and (max-width: 648px) {
   header {
     height: 20em;
@@ -152,6 +173,23 @@ footer a:hover {
 
   .description p {
     font-size: var(--text-sm);
+  }
+
+  main {
+    margin: 2em 1em;
+  }
+
+  .profile-container {
+    border: 1px solid;
+    width: 50%;
+  }
+
+  /* .profile-role {
+    border: 1px solid orange;
+  } */
+
+  .profile-center {
+    margin: 0;
   }
 
   img {
