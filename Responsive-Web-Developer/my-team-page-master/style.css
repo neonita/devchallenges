@@ -74,8 +74,6 @@ main {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   grid-template-rows: repeat(2, minmax(auto, 1fr));
-
-  /* border: 1px solid red; */
 }
 
 .profile-container {
