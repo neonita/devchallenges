@@ -71,25 +71,6 @@ main {
   margin-top: 5em;
 }
 
-.row {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-bottom: 3.9em auto;
-}
-
-.row-one {
-  /* border: 2px dashed red; */
-}
-
-.row-two {
-  margin-bottom: 2em;
-}
-
-.profile-center {
-  margin-top: 6em;
-}
-
 img {
   width: var(--img-width);
   height: auto;
@@ -101,7 +82,7 @@ img {
 }
 
 figure {
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
 }
 
 figcaption {
@@ -126,7 +107,7 @@ figcaption {
   bottom: 1.2em;
   left: 1em;
 
-  flex-shrink: 3;
+  /* flex-shrink: 3; */
 }
 
 /* 
