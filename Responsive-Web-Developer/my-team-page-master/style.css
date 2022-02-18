@@ -81,6 +81,7 @@ main {
 
   display: flex;
   margin-bottom: 5em;
+  gap: 0.5em;
 }
 
 .profile-container:nth-child(2),
@@ -113,11 +114,12 @@ figcaption {
   text-transform: uppercase;
   height: max-content; /* minimum height of content inside the element */
 
-  transform-origin: bottom left;
+  /* transform-origin: bottom left;
   transform: rotate(90deg);
   position: relative;
   bottom: 1.2em;
-  left: 1em;
+  left: 1em; */
+  writing-mode: vertical-lr;
 }
 
 /* 
