@@ -104,10 +104,35 @@ body {
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: auto;
+  color: #fff;
 }
 
 .grid__cell {
-  border: 1px dashed red;
+  align-self: center;
+  justify-self: start;
+}
+
+.grid-left__title {
+  font-family: var(--font-accent);
+  font-weight: 500;
+  font-size: var(--text-xl);
+  margin-bottom: 1em;
+}
+
+.grid-left__text {
+  text-align: start;
+  font-size: var(--text-lg);
+  font-weight: 400;
+  line-height: 29.26px;
+  margin-bottom: 1em;
+}
+
+.grid-left__link {
+  color: #fff;
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.15s ease-in-out;
 }
 
 .grid-right__img {
