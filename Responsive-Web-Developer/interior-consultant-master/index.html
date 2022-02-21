@@ -30,5 +30,79 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>This Interior Consultant</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="nav">
+        <h1 class="nav__logo">
+          <a href="/">The interior</a>
+        </h1>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="/" class="nav__link nav__link--active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="/" class="nav__link">Collection</a>
+          </li>
+          <li class="nav__item">
+            <a href="/" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="/" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </div>
+    </header>
+
+    <main>
+      <article class="grid">
+        <section class="grid__cell">
+          <h1 class="grid-left__title">Modern interior</h1>
+          <p class="grid-left__text">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a href="/" target="_blank" class="grid-left__link">
+            Read more
+            <span class="material-icons">&#xe941;</span>
+          </a>
+        </section>
+
+        <section class="grid__cell">
+          <img
+            src="images/photo1.png"
+            alt="a bright home interior"
+            class="grid-right__img"
+          />
+          <div class="grid-right__card">
+            <div class="card__title">
+              <img
+                src="images/photo2.png"
+                alt="avatar of Aliza Webster"
+                class="card__avatar"
+              />
+              <span class="card__profile">
+                <p class="card__name">Aliza Webster</p>
+                <p class="card__role">Interior design</p>
+              </span>
+            </div>
+            <h3 class="card__credit">Designed in 2020 by Aliza Webster</h3>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      created by
+      <a href="/" target="_blank" class="footer__link">Melissa Banoen-Garde</a>
+      - devChallenges.io
+    </footer>
+
+    <script src="js/tablet-mobile-menu.js"></script>
+  </body>
 </html>
