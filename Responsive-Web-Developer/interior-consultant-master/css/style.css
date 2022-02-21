@@ -99,6 +99,28 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
 }
 
+/* Main */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+}
+
+.grid__cell {
+  border: 1px dashed red;
+}
+
+.grid-right__img {
+  width: 100%;
+  height: auto;
+}
+
+/* @media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+} */
+
 /* 
     font-family: 'Crimson Pro', serif;
     font-family: 'Lora', serif;
