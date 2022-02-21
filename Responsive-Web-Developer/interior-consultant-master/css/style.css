@@ -24,6 +24,81 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+
+  padding: 1em 5em;
+}
+
+/* header {
+  border: 1px solid pink;
+} */
+
+.nav {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo a:link,
+.nav__logo a:visited {
+  border: 1px solid #fff;
+  font-family: var(--font-logo);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  padding: 0.5em;
+}
+
+.nav__logo a:hover {
+  cursor: pointer;
+}
+
+.nav__list {
+  list-style: none;
+  padding-left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5em;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.15s ease-in-out;
+  border-bottom: 1px solid var(--bg-color);
+}
+
+.nav__link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.nav__link--active {
+  border-bottom: 1px solid #fff;
+  font-weight: 700;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger__bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
 /* 
     font-family: 'Crimson Pro', serif;
     font-family: 'Lora', serif;
