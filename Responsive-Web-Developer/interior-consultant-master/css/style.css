@@ -1,0 +1,37 @@
+:root {
+  --font-main: "Montserrat", sans-serif;
+  --font-accent: "Lora", serif;
+  --font-logo: "Crimson Pro", serif;
+
+  --bg-color: #181719;
+  --grey-1: #828282;
+  --grey-2: #a9a9a9;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.5rem;
+  --text-xl: 3rem;
+
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+*,
+*::before,
+*::after {
+  /*  */
+}
+
+/* 
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+
+    12px -- 0.75rem
+    14px -- 0.875rem
+    18px -- 1.125rem
+    24px -- 1.5rem
+    48px -- 3rem
+
+    https://google.github.io/material-design-icons/
+*/
