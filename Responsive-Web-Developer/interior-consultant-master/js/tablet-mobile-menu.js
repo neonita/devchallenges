@@ -1,10 +1,13 @@
 let hamburger = document.querySelector(".hamburger");
 let navList = document.querySelector(".nav__list");
+let card = document.querySelector(".grid-right__card--active");
 
 // menu open
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navList.classList.toggle("active");
+
+  card.style.display = "none";
 });
 
 let navLink = document.querySelectorAll(".nav__link");

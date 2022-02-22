@@ -172,6 +172,10 @@ body {
   bottom: 5em;
 }
 
+.grid-right__card--active {
+  display: block;
+}
+
 .card__title {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -228,7 +232,7 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 1em 0.5em;
+    padding: 0 0.7em;
   }
 
   .nav {
