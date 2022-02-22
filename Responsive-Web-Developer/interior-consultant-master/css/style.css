@@ -232,7 +232,12 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 0 0.7em;
+    padding: 0.7em 0.7em;
+    /* width: 100% !important; */
+  }
+
+  header {
+    margin-bottom: 1.5em;
   }
 
   .nav {
@@ -279,13 +284,66 @@ body {
     left: 0;
     opacity: 1;
   }
+
+  /* Main */
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .grid-left__title {
+    font-size: 36px;
+    margin: 0 0 0.6em 0;
+  }
+
+  .grid-left__text,
+  .grid-left__link {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1em;
+  }
+
+  .grid__cell--right {
+    margin-top: 1.2em;
+  }
+
+  .grid-right__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-right__card {
+    width: 300px;
+    height: 138px;
+    left: 2.5em;
+    bottom: 4em;
+    padding: 1em 1.5em;
+  }
+
+  .card__avatar {
+    width: 36px;
+    height: 36px;
+  }
+
+  .card__profile {
+    padding-left: 0;
+  }
+
+  .card__name {
+    font-size: 12px;
+  }
+
+  .card__role {
+    font-size: 10px;
+  }
+
+  .card__credit {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 /* 
-    font-family: 'Crimson Pro', serif;
-    font-family: 'Lora', serif;
-    font-family: 'Montserrat', sans-serif;
-
     12px -- 0.75rem
     14px -- 0.875rem
     18px -- 1.125rem

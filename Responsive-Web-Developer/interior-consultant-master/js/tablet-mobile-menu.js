@@ -17,5 +17,7 @@ navLink.forEach((n) =>
   n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navList.classList.remove("active");
+
+    card.style.display = "block";
   })
 );
