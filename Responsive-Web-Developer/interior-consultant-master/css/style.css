@@ -25,17 +25,14 @@
 }
 
 body {
-  font-family: var(--font-main);
-  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 1em 5em;
   height: 100vh;
-}
 
-header {
-  /* border: 1px dashed orange; */
+  background-color: var(--bg-color);
+  font-family: var(--font-main);
 }
 
 .nav {
@@ -77,14 +74,15 @@ header {
   text-decoration: none;
   transition: 0.15s ease-in-out;
   border-bottom: 1px solid var(--bg-color);
+  padding: 0 0.2em 0.5em 0.2em;
 }
 
 .nav__link:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .nav__link--active {
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff;
   font-weight: 700;
 }
 
