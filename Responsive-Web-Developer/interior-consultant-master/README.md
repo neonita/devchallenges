@@ -3,15 +3,15 @@
 Solution for a challenge from <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 
   <h6>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://neonita.github.io/devchallenges/Responsive-Web-Developer/interior-consultant-master/index.html" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/neonita">
+    <a href="https://github.com/neonita/devchallenges/tree/main/Responsive-Web-Developer/interior-consultant-master" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" target="_blank">
       Challenge
     </a>
   </h6>
@@ -36,11 +36,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - Where can I see your demo?
   <br>
-- What was your experience?
+- What was your experience? <br>
   <strong>Post-layouting / Pre-coding</strong>
   I wanted to try to properly plan ahead before jumping into developing. Not only has this helped me feel more confident about coding switfly but it has facilitated applying the BEM methology.
   <br>
-- What have you learned/improved?
+- What have you learned/improved? <br>
   <strong>Post-coding</strong>
   To be determined...
   <br>
