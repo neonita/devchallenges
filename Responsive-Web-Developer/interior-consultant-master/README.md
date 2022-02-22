@@ -30,7 +30,12 @@ Solution for a challenge from <a href="http://devchallenges.io" target="_blank">
 
 ### Overview
 
+###### Result
+
 ![screenshot-desktop](images/desktop-screenshot.png)
+
+###### Design
+
 ![desktop-design](images/design-desktop.png)
 
 <!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering: -->
