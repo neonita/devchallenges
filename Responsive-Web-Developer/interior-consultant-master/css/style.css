@@ -124,7 +124,7 @@ body {
   font-size: var(--text-lg);
   font-weight: 400;
   line-height: 29.26px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .grid-left__link {
@@ -133,6 +133,14 @@ body {
   font-weight: 700;
   text-decoration: none;
   transition: 0.15s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.material-icons {
+  font-size: 1.7rem;
+  padding-top: 0.05em;
 }
 
 .grid-right__img {
