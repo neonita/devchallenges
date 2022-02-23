@@ -30,13 +30,17 @@ Solution for a challenge from <a href="http://devchallenges.io" target="_blank">
 #### Results
 
 <div align="center">
-<img src="images/screenrecording-desktop-to-mobile.gif" width="100%"/>
-<small>Screenrecording of responsiveness</small> 
+  <img src="images/screenrecording-desktop-to-mobile.gif" width="100%"/>
+  <small>Screenrecording of responsiveness</small> 
 <br>
 <br>
-<img src="images/desktop-screenshot.png" width="49%"/> <img src="images/design-desktop.png" width="49%" />
-<small>Desktop result | Figma design</small> <br>
+  <img src="images/desktop-screenshot.png" width="49%"/> <img src="images/design-desktop.png" width="49%" />
+  <small>Desktop result — Figma design</small> <br>
  <br>
+  <img src="images/mobile-screenshot.png" width="22%"/> <img src="images/mobile-screenshot-menu.png" width="22%" />
+  <img src="images/design-mobile.png" width="22.1%"/> <img src="images/design-mobile2.png" width="22.6%" />
+ <br>
+  <small>Mobile result — Figma design</small> <br>
 </div>
 
 #### Built With
@@ -55,6 +59,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [BEM naming convention](http://getbem.com/naming/)
 - [Hamburger menu reference](https://www.youtube.com/watch?v=flItyHiDm7E)
+- [DOMTokenList.toggle()](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle)
 - [How to align images in markdown](https://davidwells.io/snippets/how-to-align-images-in-markdown)
 
 #### Contact

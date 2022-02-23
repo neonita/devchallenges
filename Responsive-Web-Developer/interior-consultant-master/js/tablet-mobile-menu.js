@@ -18,7 +18,5 @@ navLink.forEach((n) =>
   n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navList.classList.remove("active");
-    card.classList.remove("grid-right__card--remove");
-    logo.classList.remove("nav__logo--remove");
   })
 );
