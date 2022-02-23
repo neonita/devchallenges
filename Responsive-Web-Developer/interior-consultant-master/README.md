@@ -16,27 +16,28 @@ Solution for a challenge from <a href="http://devchallenges.io" target="_blank">
     </a>
   </h6>
 
-<!-- TABLE OF CONTENTS -->
-
 ### Table of Contents
 
 - [Overview](#overview)
+  - [Results](#results)
   - [Built With](#built-with)
-  - [Features](#features)
-- [Contact](#contact)
+- [Features](#features)
 - [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
+- [Contact](#contact)
 
 ### Overview
 
-###### Result
+#### Results
 
-![screenshot-desktop](images/desktop-screenshot.png)
-
-###### Design
-
-![desktop-design](images/design-desktop.png)
+<div align="center">
+<img src="images/screenrecording-desktop-to-mobile.gif" width="100%"/>
+<small>Screenrecording of responsiveness</small> 
+<br>
+<br>
+<img src="images/desktop-screenshot.png" width="49%"/> <img src="images/design-desktop.png" width="49%" />
+<small>Desktop result | Figma design</small> <br>
+ <br>
+</div>
 
 #### Built With
 
@@ -51,11 +52,10 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 #### Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [BEM naming convention](http://getbem.com/naming/)
 - [Hamburger menu reference](https://www.youtube.com/watch?v=flItyHiDm7E)
+- [How to align images in markdown](https://davidwells.io/snippets/how-to-align-images-in-markdown)
 
 #### Contact
 
