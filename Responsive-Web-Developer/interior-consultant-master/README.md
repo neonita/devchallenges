@@ -38,16 +38,6 @@ Solution for a challenge from <a href="http://devchallenges.io" target="_blank">
 
 ![desktop-design](images/design-desktop.png)
 
-<strong>Post-layouting / Pre-coding</strong>
-I wanted to try to properly plan ahead before jumping into developing. Not only has this helped me feel more confident about coding switfly but it has facilitated applying the BEM methology.
-<br>
-
-- What have you learned/improved? <br>
-  <strong>Post-coding</strong>
-  To be determined...
-  <br>
-- Your wisdom? :)
-
 #### Built With
 
 - HTML5 Semantic Elements
