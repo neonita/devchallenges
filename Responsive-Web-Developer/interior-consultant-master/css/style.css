@@ -269,6 +269,7 @@ body {
 
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 10em;
 
     background-color: var(--bg-color);
     opacity: 0;
