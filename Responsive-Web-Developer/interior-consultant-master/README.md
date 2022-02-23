@@ -38,13 +38,10 @@ Solution for a challenge from <a href="http://devchallenges.io" target="_blank">
 
 ![desktop-design](images/design-desktop.png)
 
-<!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering: -->
+<strong>Post-layouting / Pre-coding</strong>
+I wanted to try to properly plan ahead before jumping into developing. Not only has this helped me feel more confident about coding switfly but it has facilitated applying the BEM methology.
+<br>
 
-  <br>
-- What was your experience? <br>
-  <strong>Post-layouting / Pre-coding</strong>
-  I wanted to try to properly plan ahead before jumping into developing. Not only has this helped me feel more confident about coding switfly but it has facilitated applying the BEM methology.
-  <br>
 - What have you learned/improved? <br>
   <strong>Post-coding</strong>
   To be determined...
@@ -68,6 +65,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [BEM naming convention](http://getbem.com/naming/)
+- [Hamburger menu reference](https://www.youtube.com/watch?v=flItyHiDm7E)
 
 #### Contact
 
