@@ -149,13 +149,13 @@ body {
 .grid__cell--right {
   margin-top: 5em;
   justify-self: end;
-  align-items: center;
+  align-items: start;
   height: 600px;
 }
 
 .grid-right__img {
-  /* width: 100%;
-  height: auto; */
+  width: 100%;
+  height: auto;
   max-width: 737px;
   max-height: 555px;
 }
@@ -163,17 +163,15 @@ body {
 .grid-right__card {
   width: 26em; /* 410px */
   height: 12em; /* 189px */
+
   background-color: var(--bg-color);
   box-shadow: var(--shadow);
   padding: 1.5em;
 
+  display: block;
   position: relative;
   left: 18em;
   bottom: 5em;
-}
-
-.grid-right__card--active {
-  display: block;
 }
 
 .card__title {
@@ -230,7 +228,7 @@ body {
   padding: 0 0.25em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   body {
     padding: 0.7em 0.7em;
     /* width: 100% !important; */
@@ -242,6 +240,10 @@ body {
 
   .nav {
     height: 5vh;
+  }
+
+  .nav__logo--remove {
+    opacity: 0;
   }
 
   .hamburger {
@@ -258,6 +260,10 @@ body {
 
   .hamburger.active .hamburger__bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .grid-right__card--remove {
+    display: none;
   }
 
   .nav__list {
@@ -308,7 +314,7 @@ body {
   .grid__cell--right {
     margin-top: 0em;
     align-items: center;
-    justify-items: center;
+    justify-items: start;
     height: 100%;
   }
 
