@@ -231,7 +231,6 @@ body {
 @media screen and (max-width: 375px) {
   body {
     padding: 0.7em 0.7em;
-    /* width: 100% !important; */
   }
 
   header {
@@ -359,11 +358,3 @@ body {
     height: auto;
   }
 }
-
-/* 
-    12px -- 0.75rem
-    14px -- 0.875rem
-    18px -- 1.125rem
-    24px -- 1.5rem
-    48px -- 3rem
-*/
