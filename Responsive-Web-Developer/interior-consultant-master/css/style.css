@@ -288,7 +288,8 @@ body {
   /* Main */
   .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 30vh 50vh;
+    height: fit-content;
   }
 
   .grid-left__title {
@@ -304,7 +305,10 @@ body {
   }
 
   .grid__cell--right {
-    margin-top: 1.2em;
+    margin-top: 0em;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
   }
 
   .grid-right__img {
@@ -315,6 +319,7 @@ body {
   .grid-right__card {
     width: 300px;
     height: 138px;
+    position: relative;
     left: 2.5em;
     bottom: 4em;
     padding: 1em 1.5em;
@@ -340,6 +345,11 @@ body {
   .card__credit {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .footer {
+    font-size: 11px;
+    height: auto;
   }
 }
 
