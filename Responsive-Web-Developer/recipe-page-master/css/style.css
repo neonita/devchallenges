@@ -3,10 +3,21 @@
 :root {
   --font-header: "Playfair Display", serif;
   --font-body: "Montserrat", sans-serif;
+
+  --text-xxs: 0.625rem; /* 10px */
+  --text-xs: 0.875rem; /* 14px */
+  --text-sm: 1rem; /* 16px */
+  --text-md: 1.125rem; /* 18px */
+  --text-lg: 1.5rem; /* 24px */
+  --text-xl: 3rem; /* 48px */
+  --lh-xs: 1.067rem;
+  --lh-sm: 1.5rem;
+
   --accent-color: #f2994a;
   --grey: #333;
   --grey2: #4f4f4f;
   --grey3: #bdbdbd;
+
   --shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   --radius: 12px;
 }
@@ -17,6 +28,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  font-family: var(--font-body);
+  margin: 0 15em;
+}
+
+.header {
+  margin-top: 3.25em;
+}
+
+.header__title {
+  font-family: var(--font-header);
+  font-size: 3rem;
+}
+
+.header__infobox {
+  display: grid;
+  grid-template-columns: 2% 1fr;
+  grid-template-rows: auto;
+}
+
+.infobox__icon {
+}
+
+.infobox__description {
 }
 
 .header__img {
