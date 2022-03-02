@@ -3,6 +3,12 @@
 :root {
   --font-header: "Playfair Display", serif;
   --font-body: "Montserrat", sans-serif;
+  --accent-color: #f2994a;
+  --grey: #333;
+  --grey2: #4f4f4f;
+  --grey3: #bdbdbd;
+  --shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  --radius: 12px;
 }
 
 *,
@@ -11,4 +17,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.instructions__step {
+  color: red;
+  font-size: 2rem;
 }
