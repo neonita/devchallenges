@@ -40,23 +40,36 @@
 }
 
 .header__title {
+  color: #000;
   font-family: var(--font-header);
-  font-size: 3rem;
+  font-size: var(--text-xl);
+  margin-bottom: 0.3em;
 }
 
 .header__infobox {
   display: grid;
-  grid-template-columns: 2% 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: auto;
+  justify-items: start;
+  align-items: start;
 }
 
 .infobox__icon {
+  margin-top: 0.3em;
 }
 
 .infobox__description {
+  color: var(--grey2);
+  font-size: var(--text-xs);
+  line-height: var(--lh-xs);
+  font-weight: 400;
+  font-style: italic;
+  padding-right: 16em;
+  padding-left: 1em;
 }
 
 .header__img {
+  margin: 2.5em 0;
   width: 100%;
   height: auto;
 }
