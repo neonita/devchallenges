@@ -145,19 +145,45 @@
   margin-top: 2em;
 }
 
+/* tr */
 .instructions__row {
 }
 
+/* td */
 .instructions__step {
+  width: 36px;
+  text-align: center;
+}
+
+.instructions__step span {
+  color: #fff;
+  font-family: var(--font-header);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 30px;
+
+  background-color: var(--accent-color);
+  padding: 0em 0.5em 0.3em 0.5em;
+  border-radius: 6px;
+}
+
+td {
+  vertical-align: top;
 }
 
 .instructions__instruction {
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--lh-sm);
 }
 
 .grid__source {
+  color: var(--grey3);
 }
 
 .grid__source a {
+  color: var(--grey3);
+  text-decoration: none;
 }
 
 .summary {
