@@ -14,9 +14,10 @@
   --lh-sm: 1.5rem;
 
   --accent-color: #f2994a;
-  --grey: #333;
+  --grey: #333333;
   --grey2: #4f4f4f;
   --grey3: #bdbdbd;
+  --chckbox-color: #828282;
 
   --shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   --radius: 12px;
@@ -96,23 +97,52 @@
   font-size: var(--text-md);
   font-weight: 400;
   font-style: italic;
-  margin: 1em auto;
+  margin: 2em auto;
 }
 
 .cell__ingredients-set {
+  list-style-type: none;
+  margin-bottom: 2em;
 }
 
 .cell__summary {
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.italic500 {
+  font-style: italic;
+  font-weight: 500;
+}
+
 .ingredients-set__ingredient {
+  margin-bottom: 0.5em;
 }
-.ingredients-set__ingredient input {
+
+.ingredients-set__ingredient input[type="checkbox"] {
+  width: 21px;
+  height: 21px;
+  padding: 0;
+  margin-right: 1.05em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
 }
+
 .ingredients-set__ingredient label {
+  color: var(--grey);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--lh-sm);
+  display: block;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
 }
 
 .instructions {
+  margin-top: 2em;
 }
 
 .instructions__row {

@@ -44,6 +44,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Where can I see your demo?
 - What was your experience?
 - What have you learned/improved?
+- [How to align a checkbox and its label consistently cross-browsers](https://www.w3docs.com/snippets/css/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers.html)
 - Your wisdom? :)
 
 ### Built With
